@@ -1,0 +1,21 @@
+{
+	"name": "Carango",
+	"description": "Portal de compra e venda de veículos com sistema de gerenciamento",
+	"minimun-stability":"stable",
+	"authors": [
+		{
+			"name": "Ramires Gomes",
+			"email": "ramires.gb@gmail.com"
+		}
+	],
+	"name": "",
+	"autoload": {
+		"psr-0": {
+			"Core": "src",
+			"Application": "src"
+		}
+	},
+	"require": {
+		"php": ">=5.3.2"
+	}
+}
